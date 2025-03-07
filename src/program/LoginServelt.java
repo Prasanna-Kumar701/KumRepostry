@@ -20,7 +20,7 @@ public class LoginServelt extends HttpServlet {
 	response.setContentType("text/html");
 	PrintWriter out=response.getWriter();
 	
-	if("Prasanna@email".equals("email") && "12345@1".equals("Password"))
+	if("Prasanna@email".equals(Email) && "12345@1".equals(Password))
 	{
 		System.out.println("Login Sucess");
 	}else {
